@@ -64,8 +64,7 @@ Eklentiyi tarayıcınıza yerel olarak kurmak için:
 
 1. Bu depoyu klonlayın veya ZIP olarak indirin:
    ```bash
-   git clone [https://github.com/KaganAk71/BTKAkademi_Premium.git](https://github.com/KaganAk71/BTKAkademi_Premium.git)
-
+   git clone https://github.com/KaganAk71/BTKAkademi_Premium.git
 2. Tarayıcınızın eklenti yönetimi sayfasına gidin:
 * **Chrome / Edge / Brave:** `chrome://extensions/`
 * **Firefox:** `about:debugging#/runtime/this-firefox`
@@ -115,8 +114,7 @@ To install the extension locally on your browser:
 
 1. Clone or download this repository:
 ```bash
-git clone [https://github.com/KaganAk71/BTKAkademi_Premium.git](https://github.com/KaganAk71/BTKAkademi_Premium.git)
-
+git clone https://github.com/KaganAk71/BTKAkademi_Premium.git
 ```
 
 
