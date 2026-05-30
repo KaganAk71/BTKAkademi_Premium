@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-<h1 align="center">BTKAkademi Premium <sup>(BETA)</sup></h1>
+<h1 align="center">BTKAkademi Premium</h1>
 
 <p align="center">
   <b>Sınırsız Video Hızlandırıcı & Otonom AES-128 Medya İndirici Tarayıcı Eklentisi</b>
