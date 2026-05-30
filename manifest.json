@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "BTKAkademi Premium",
+  "version": "1.0",
+  "description": "BTKAkademi'nin kullandığı Cinema8 sistemindeki videoların hızını sınırsızca artırır ve AES-128 korumalı videoları istediğiniz kalitede MP4 formatında indirir.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "tabs",
+    "downloads",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "BTKAkademi Premium"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.cinema8.com/*",
+        "*://*.btkakademi.gov.tr/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "btk_autonomous_decryptor@local.addon",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}
